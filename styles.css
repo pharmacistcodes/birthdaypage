@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(black, gray);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid hotpink;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    scale: 1.5
+}
+
+#bday-age {
+    background: hotpink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 75px;
+    margin-bottom: 1px;
+}
+
+
+
+#bday-date {
+    margin: 0;
+    background: hotpink;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 400px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid hotpink;
+    border-radius: 10px;
+    background-image: url("images/gold.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.tenor.com/E0BrUQIsTdkAAAAC/happy-dance.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.tenor.com/JAw6mPjCVr4AAAAd/ohmy-lawd.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.tenor.com/rBROruNZz0QAAAAd/bts-bangtan-boys.gif");
+}
+
+#gift-img-swag:hover {
+    background-image: url("https://media.giphy.com/media/trVA4qtpnYqsw/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/l3V0vOJDqTRFolv8s/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
